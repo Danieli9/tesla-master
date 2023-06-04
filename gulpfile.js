@@ -4,6 +4,7 @@ autoprefixer = require('gulp-autoprefixer'),
 uglify = require('gulp-uglify'),
 rename = require('gulp-rename'),
 concat = require('gulp-concat'),
+purgecss = require('gulp-purgecss'),
 notify = require('gulp-notify'),
 browserSync = require('browser-sync').create(),
 cleanCSS = require('gulp-clean-css'),
@@ -36,6 +37,12 @@ gulp.task('compile-styles', function() {
       .pipe(rename({suffix: '.min'}))
       .pipe(cleanCSS('level: 2'))
       .pipe(gulp.dest('assets/css'))
+      // Be very careful with purge css
+      .pipe(purgecss({
+        content: ['../**/*.php'],
+      }))
+      .pipe(gulp.dest('assets/css'))
+      // ---------------
       .pipe(browserSync.stream())
       .pipe(notify({ message: 'Styles task complete' }));
   });
