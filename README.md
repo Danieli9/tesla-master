@@ -1,6 +1,6 @@
-# Method Base Theme
+# Tesla Theme
 
-![Method Base Theme Banner](https://tesladesignstudio.com/tesla-cover.png)
+![Tesla Theme Banner](https://tesladesignstudio.com/tesla-cover.png)
 
 Tesla is a base theme designed to facilitate custom theme-building at an accelerated pace, without sacrificing code efficiency or site performance. The theme uses Twitter's Bootstrap 5 framework as the foundation for building the frontend.
 
