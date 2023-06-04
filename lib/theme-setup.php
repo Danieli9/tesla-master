@@ -130,7 +130,7 @@ function block_categories( $categories, $post ) {
 		array(
 			array(
 				'slug' => 'tesla-theme-blocks',
-				'title' => 'Starter Theme Blocks',
+				'title' => 'Tesla Theme Blocks',
 				'icon'  => 'wordpress',
 			),
 		),

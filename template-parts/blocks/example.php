@@ -4,7 +4,7 @@ if (isset($block['data']['preview_image_help'])) :    /* rendering in inserter p
 else :
 
 ?>
-    <section class="starter-block starter-block-NameOfBlock">
+    <section class="tesla-block tesla-block-NameOfBlock">
        <!-- Developer to fill -->
     </section>
 <?php endif; ?>
