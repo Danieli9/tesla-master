@@ -37,6 +37,7 @@
 							'fallback_cb'     => '',
 							'menu_id'         => 'main-menu',
 							'depth'           => 2,
+							'walker'           => new bootstrap_5_wp_nav_menu_walker()
 						)
 					);
 					?>
