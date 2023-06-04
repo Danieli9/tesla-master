@@ -1,0 +1,19 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+.navbar {
+    .navbar-toggler {
+        margin-left: auto;
+    }
+
+    #navbarNavDropdown {
+        .navbar-nav {
+            .menu-item {
+                a {
+                    padding: 5px 10px;
+                }
+            }
+        }
+    }
+}
