@@ -2,18 +2,20 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 
+/*! purgecss start ignore */
 .navbar {
     .navbar-toggler {
         margin-left: auto;
     }
 
-    #navbarNavDropdown {
+    .navbar-collapse {
         .navbar-nav {
             .menu-item {
-                a {
+                .nav-link {
                     padding: 5px 10px;
                 }
             }
         }
     }
 }
+/*! purgecss end ignore */
