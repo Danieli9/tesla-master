@@ -24,6 +24,14 @@ html {
  */
 body {
   margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /**
@@ -137,6 +145,8 @@ sup {
  */
 img {
   border-style: none;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Forms
@@ -2765,7 +2775,7 @@ a:hover, a:active, a:focus, a:focus-within {
  */
 body {
   color: rgb(34, 34, 34);
-  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font: normal 100%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 /**
@@ -2820,9 +2830,19 @@ body {
   width: 1px;
 }
 
+/*! purgecss start ignore */
 .navbar .navbar-toggler {
   margin-left: auto;
 }
-.navbar #navbarNavDropdown .navbar-nav .menu-item a {
-  padding: 5px 10px;
+.navbar .navbar-collapse .navbar-nav {
+  color: red;
 }
+.navbar .navbar-collapse .navbar-nav .menu-item {
+  color: red;
+}
+.navbar .navbar-collapse .navbar-nav .menu-item .nav-link {
+  padding: 5px 10px;
+  color: blue;
+}
+
+/*! purgecss end ignore */
