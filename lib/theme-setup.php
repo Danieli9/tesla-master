@@ -27,14 +27,14 @@ function tesla_enable_theme_support() {
 add_action( 'after_setup_theme', 'tesla_enable_theme_support' );
 
 
-function method_register_custom_nav_menus() {
+function tesla_register_custom_nav_menus() {
 	register_nav_menus(
 		array(
 			'tesla-master' => 'Primary',
 		)
 	);
 }
-add_action( 'after_setup_theme', 'method_register_custom_nav_menus' );
+add_action( 'after_setup_theme', 'tesla_register_custom_nav_menus' );
 
 
 
