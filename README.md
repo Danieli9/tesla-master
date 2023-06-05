@@ -8,7 +8,7 @@ Tesla Theme is tailored for developing fully-customized solutions, prioritizing 
 
 # Tesla Run Rename
 
-The `tesla-run-rename.sh` script is a tool that helps you quickly and easily perform string replacements in your WordPress theme. This can be useful when you want to change specific names or references throughout your project.
+The `tesla-run-rename.sh` script is a tool that helps you quickly and easily perform string replacements in theme. This can be useful when you start a project.
 
 ## Usage
 
@@ -16,7 +16,7 @@ The `tesla-run-rename.sh` script is a tool that helps you quickly and easily per
 
 2. Open a terminal and navigate to the directory where `tesla-run-rename.sh` script is located.
 
-3. Open the `tesla-run-rename.sh` file in a text editor, such as Visual Studio Code. Inside the file, locate the line `common_string="put here theme name"`. Replace the placeholder `put here theme name` with the desired common name you want to use in the replacements. Make sure to use all lowercase letters, without spaces or special characters.
+3. Open the `tesla-run-rename.sh` file in a text editor, such as Visual Studio Code. Inside the file, locate the line `common_string="put here theme name"`. Replace the placeholder `put here theme name` your theme name. Make sure to use all lowercase letters, without spaces or special characters.
 
 4. Save the changes in the `tesla-run-rename.sh` file.
 
