@@ -16,7 +16,7 @@ The `tesla-run-rename.sh` script is a tool that helps you quickly and easily per
 
 2. Open a terminal and navigate to the directory where `tesla-run-rename.sh` script is located.
 
-3. Open the `tesla-run-rename.sh` file in a text editor, such as Visual Studio Code. Inside the file, locate the line `common_string="put here theme name"`. Replace the placeholder `put here theme name` your theme name. Make sure to use all lowercase letters, without spaces or special characters.
+3. Open the `tesla-run-rename.sh` file in a text editor, such as Visual Studio Code. Inside the file, locate the line `common_string="put here theme name"`. Replace the placeholder `put here theme name` with your theme name. Make sure to use all lowercase letters, without spaces or special characters.
 
 4. Save the changes in the `tesla-run-rename.sh` file.
 
