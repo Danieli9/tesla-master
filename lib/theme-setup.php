@@ -36,15 +36,6 @@ function tesla_register_custom_nav_menus() {
 }
 add_action( 'after_setup_theme', 'tesla_register_custom_nav_menus' );
 
-
-
-//-----------------------------------------------------
-// Custom Image Sizes
-//-----------------------------------------------------
-
-add_image_size( 'method_1400_600', 1400, 600, true );
-
-
 //-----------------------------------------------------
 // Enqueue scripts and styles
 //-----------------------------------------------------
