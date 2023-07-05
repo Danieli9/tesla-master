@@ -37,15 +37,19 @@ gulp.task('compile-styles', function() {
       .pipe(rename({suffix: '.min'}))
       .pipe(cleanCSS('level: 2'))
       .pipe(gulp.dest('assets/css'))
-      // Be very careful with purge css
+      .pipe(browserSync.stream())
+      .pipe(notify({ message: 'Styles task complete' }));
+  });
+
+  gulp.task('purge', () => {
+    return gulp.src('assets/css/theme.min.css')
       .pipe(purgecss({
         content: ['../**/*.php'],
       }))
       .pipe(gulp.dest('assets/css'))
-      // ---------------
       .pipe(browserSync.stream())
-      .pipe(notify({ message: 'Styles task complete' }));
-  });
+      .pipe(notify({ message: 'PurgeCSS task complete' }));
+});
 
 gulp.task('styles', gulp.series('compile-styles', 'process-styles'));
 
