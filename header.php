@@ -13,6 +13,14 @@
 
 		<div class="container">
 
+			<div class="navbar-brand">
+
+				<a class="navbar-brand-anchor" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url">
+					<!-- logo goes here -->
+				</a>
+
+			</div>
+
 			<header id="masthead" class="navbar navbar-expand-md">
 
 					<button
