@@ -2767,7 +2767,7 @@ a {
 }
 a:hover, a:active, a:focus, a:focus-within {
   color: rgb(34, 34, 34);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /**
@@ -2834,15 +2834,8 @@ body {
 .navbar .navbar-toggler {
   margin-left: auto;
 }
-.navbar .navbar-collapse .navbar-nav {
-  color: red;
-}
-.navbar .navbar-collapse .navbar-nav .menu-item {
-  color: red;
-}
 .navbar .navbar-collapse .navbar-nav .menu-item .nav-link {
   padding: 5px 10px;
-  color: blue;
 }
 
 /*! purgecss end ignore */

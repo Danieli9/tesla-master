@@ -33,16 +33,6 @@
 //     This file contains a number of useful functions to assist in
 //     a variety of tasks.
 //
-// 8.  lib/cmb2-helper-functions.php
-//     Helper functions for CMB2.
-//
-// 9.  lib/cmb2-options-loader.php
-//     This is where you set up options for CMB2 metaboxes.
-//
-// 10. lib/cmb2-metaboxes.php
-//     This is where you declare CMB2 metaboxes and specify which
-//     of the options each box loads.
-//
 //======================================================================
 
 
@@ -67,6 +57,3 @@ require_once('lib/admin-customization.php');
 require_once('lib/theme-customization.php');
 require_once('lib/post-types-and-taxonomies.php');
 require_once('lib/helper-functions.php');
-require_once('lib/cmb2-helper-functions.php');
-require_once('lib/cmb2-options-loader.php');
-require_once('lib/cmb2-metaboxes.php');
